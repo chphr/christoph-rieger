@@ -1,8 +1,8 @@
 # _config.yml
 
 url: "https://chphr.github.io"
-baseurl: "christoph-rieger"
-title: "" # the name of your site, e.g. ACME Corp.
+baseurl: ""
+title: "christoph-rieger.ca" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-postcss
