@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Home"
+title: "Blog"
 ---
 
 ## Ready to go
 
 Start developing your Jekyll website. 123
+
