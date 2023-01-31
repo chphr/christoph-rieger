@@ -1,0 +1,6 @@
+- name: Linkedin
+  link: https://www.linkedin.com/in/christoph-rieger/
+  icon: fa-linkedin
+- name: GitHub
+  link: https://github.com/chphr
+  icon: fa-github
