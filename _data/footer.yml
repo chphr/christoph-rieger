@@ -4,3 +4,6 @@
 - name: GitHub
   link: https://github.com/chphr
   icon: fa-github
+- name: Twitter
+  link: https://twitter.com/chphr_ca
+  icon: fa-twitter

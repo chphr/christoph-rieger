@@ -3,6 +3,8 @@
 url: "https://chphr.github.io"
 baseurl: ""
 title: "christoph-rieger.ca" # the name of your site, e.g. ACME Corp.
+paginate: 5
+paginate_path: "/page:num/"
 
 plugins:
   - jekyll-postcss
