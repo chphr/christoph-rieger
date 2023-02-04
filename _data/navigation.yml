@@ -1,4 +1,6 @@
 - name: home
   link: /
+- name: start here
+  link: /start.html
 - name: about
   link: /about.html

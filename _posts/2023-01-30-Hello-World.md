@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 author: Christoph
-tags: blog
+tags: ['blog','personal']
 ---
 
 In today's digital age, APIs and web development play a crucial role in the success of businesses and organizations. Whether you're a seasoned developer or just starting out, this blog will provide you with valuable insights and information to help you stay ahead of the curve.

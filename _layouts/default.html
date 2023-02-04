@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <script src="https://kit.fontawesome.com/0ea8fd230e.js" crossorigin="anonymous"></script>
-  </head>
-  <body class="container mx-auto">
-    {% include navigation.html %}
-    {{ content }}
-    {% include footer.html %}
-  </body>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
+  <script src="https://kit.fontawesome.com/0ea8fd230e.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container mx-auto bg-white dark:bg-gray-800">
+  {% include navigation.html %}
+  <div class="flex flex-row">
+    <div class="basis-1/4">{% include sidebar.html %}</div>
+    <div class="basis-3/4">{{ content }}</div>
+  </div>
+  {% include footer.html %}
+</body>
+
 </html>
