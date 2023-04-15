@@ -6,9 +6,16 @@ title: "christoph-rieger.ca" # the name of your site, e.g. ACME Corp.
 paginate: 1
 paginate_path: "/page:num/"
 
+timezone: "America/Toronto"
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
 plugins:
   - jekyll-postcss
   - jekyll-paginate
+  - jekyll-seo-tag
 
 postcss:
   cache: false

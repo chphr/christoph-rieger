@@ -7,15 +7,15 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/css/main.css">
   <script src="https://kit.fontawesome.com/0ea8fd230e.js" crossorigin="anonymous"></script>
+  {% seo %}
 </head>
 
-<body class="container mx-auto bg-white dark:bg-gray-800">
-  {% include navigation.html %}
-  <div class="flex flex-row">
-    <div class="basis-1/4">{% include sidebar.html %}</div>
-    <div class="basis-3/4">{{ content }}</div>
+<body class="">
+  {% include navbar/navigation.html %}
+  <div class="container mx-auto">
+    {{content}}
+    {% include footer.html %}
   </div>
-  {% include footer.html %}
 </body>
 
 </html>

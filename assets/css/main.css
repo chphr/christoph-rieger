@@ -4,3 +4,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-repeat:no-repeat;
+    background-color: rgb(24, 24, 24); 
+    background-attachment:fixed;
+}
+
+.navfoot-bg {
+    background-repeat:no-repeat;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(8,162,198)), to(rgb(246,82,44))); 
+}

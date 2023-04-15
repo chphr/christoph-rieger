@@ -2,7 +2,19 @@
 layout: default
 ---
 
+
+
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-{{ content }}
+<div class="flex flex-row">
+    <div class="basis-1/4">01</div>
+    <div class="basis-1/2">{{ content }}</div>
+    <div class="basis-1/4">
+        <ul class="list-none">
+            <li class="text-white font-semibold leading-7">In this article</li>
+            <li class="text-slate-400 hover:text-lime-300 leading-7">headline 1</li>
+            <li class="text-slate-400 hover:text-lime-300 leading-7">headline 2</li>
+        </ul>
+    </div>
+</div>
