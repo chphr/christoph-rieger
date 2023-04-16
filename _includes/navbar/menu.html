@@ -1,8 +1,0 @@
-<div class=" items-center justify-center p-6 text-gray-800">
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url==item.link %}
-        class="text-gray-800 border-b-2 border-lime-300 mx-1.5 sm:mx-6" {% else %}
-        class="border-b-2 border-transparent hover:text-gray-800  hover:border-lime-300 mx-1.5 sm:mx-6" {% endif %}>{{
-        item.name }}</a>
-    {% endfor %}
-</div>

@@ -5,18 +5,25 @@ title: "Blog"
 
 
 <div class="flex flex-col">
-  <!-- Featured post and author -->
+  <!-- Featured post and author 
   <div class="flex flex-row ...">
-    <div class="basis-3/4">
+    <div class="">
       {%- assign fp = site.posts | where: 'featured', true -%}
       {%- for fp in site.posts -%}
       {{- post.title -}}
       {%- endfor -%}
     </div>
-    <div class="basis-1/4">{% include sidebar/author.html %}</div>
   </div>
+  -->
+  <!-- Post Grid -->
+  <div class="grid grid-cols-4 md:grid-cols-3 s:grid-cols-1 gap-4">
+    <div>01</div>
+    <!-- ... -->
+    <div>09</div>
+  </div>
+
   <!-- Posts -->
-  <div class="pt-2">
+  <div class="pt-4">
     {% for post in site.posts %}
     <div class="pb-2">
       <a href="{{ post.url }}"
