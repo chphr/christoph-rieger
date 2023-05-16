@@ -1,16 +1,20 @@
 # _config.yml
 
+# Site
 url: "https://chphr.github.io"
 baseurl: ""
-title: "christoph-rieger.ca" # the name of your site, e.g. ACME Corp.
-paginate: 1
-paginate_path: "/page:num/"
 timezone: "America/Toronto"
-markdown: kramdown
+name: "Christoph Rieger"
+title: "christoph-rieger.ca"
+description: "Blog."
+logo: "assets/images/logo.png"
+favicon: "assets/images/logo.png"
+google_analytics: ""
+mailchimp-list: ""
+include: ["_pages"]
+permalink: /:title/
 
-kramdown:
-  input: GFM
-
+# Plugins
 plugins:
   - jekyll-postcss
   - jekyll-paginate
@@ -23,3 +27,34 @@ postcss:
 # _config.yml
 toc:
   item_class: text-slate-400 hover:text-lime-300 leading-7
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: "/category/:name/"
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Markdown Render
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [README.md, Gemfile, Gemfile.lock]

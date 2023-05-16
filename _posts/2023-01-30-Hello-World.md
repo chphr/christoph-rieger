@@ -9,7 +9,9 @@ image: "/assets/images/posts/helloworld.jpg"
 toc: true
 ---
 
-In today's digital age, APIs and web development play a crucial role in the success of businesses and organizations. Whether you're a seasoned developer or just starting out, this blog will provide you with valuable insights and information to help you stay ahead of the curve.
+# Headline
+
+In today's digital age, APIs and web development play a crucial role in the success of businesses and organizations. Whether you're a seasoned developer or just starting out, this blog will provide you with valuable insights and information to help you stay ahead of the curve. {}
 
 Here, we'll cover topics such as:
 
@@ -26,3 +28,13 @@ Our aim is to provide you with practical, actionable advice that you can use to 
 Whether you're a startup founder, a freelance developer, or part of a development team, this blog is for you. Our goal is to create a community where developers and technology enthusiasts can come together to share their knowledge and experience, and to grow together.
 
 So, bookmark this page and join us on our journey to explore the world of APIs and web development. We look forward to your feedback and participation!
+
+```javascript
+function sayHello(name) {
+  if (!name) {
+    console.log("Hello World");
+  } else {
+    console.log(`Hello ${name}`);
+  }
+}
+```

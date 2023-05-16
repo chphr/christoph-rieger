@@ -1,9 +1,15 @@
 ---
 layout: default
+archive: false
+post_class: post-template
 ---
 
 <div class="flex flex-row">
-    <div class="basis-3/4">{{ content }}</div>
+    <div class="basis-3/4 p-5">
+        <article class="prose max-w-none prose-invert">
+            {{ content }}
+        </article>
+    </div>
     <div class="basis-1/4">
         <p class="text-white font-semibold leading-7 mt-5">In this article</p>
         {% toc %}
