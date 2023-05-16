@@ -4,7 +4,9 @@ title: Hello World
 author: Christoph
 tags: ["blog", "personal"]
 date: 2023-01-30
-featured: true
+featured: false
+image: "/assets/images/posts/helloworld.jpg"
+toc: true
 ---
 
 In today's digital age, APIs and web development play a crucial role in the success of businesses and organizations. Whether you're a seasoned developer or just starting out, this blog will provide you with valuable insights and information to help you stay ahead of the curve.

@@ -5,7 +5,6 @@ baseurl: ""
 title: "christoph-rieger.ca" # the name of your site, e.g. ACME Corp.
 paginate: 1
 paginate_path: "/page:num/"
-
 timezone: "America/Toronto"
 markdown: kramdown
 
@@ -16,6 +15,11 @@ plugins:
   - jekyll-postcss
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-toc
 
 postcss:
   cache: false
+
+# _config.yml
+toc:
+  item_class: text-slate-400 hover:text-lime-300 leading-7
