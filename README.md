@@ -13,3 +13,7 @@ personal website and blog
 [Jekyll Step by Step setup](https://jekyllrb.com/docs/step-by-step/01-setup/)
 [Jekyll SEO tags](https://github.com/jekyll/jekyll-seo-tag)
 [Jekyll Table of Contents](https://github.com/toshimaru/jekyll-toc)
+
+# Component Documentation
+
+[jekyll-feed](https://github.com/jekyll/jekyll-feed)

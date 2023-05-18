@@ -30,7 +30,7 @@ title: "Blog"
         <p class="card-text text-white">{{ post.excerpt | strip_html | truncatewords:15 }}</p>
       </div>
       <div class="mt-6 grid grid-cols-2 gap-4">
-        {% for tag in post.tags %}
+        {% for tag in post.categories %}
         <div class="px-4 py-2 bg-white rounded-lg text-center">
           <span class="text-blue-500 font-bold">{{ tag }}</span>
         </div>

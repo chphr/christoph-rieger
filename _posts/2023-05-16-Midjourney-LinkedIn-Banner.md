@@ -2,7 +2,7 @@
 layout: post
 title: Genrating a LinkedIn banner using Midjourney
 author: Christoph
-tags: ["midjourney"]
+categories: ["midjourney"]
 date: 2023-05-16
 featured: false
 image: "https://placehold.co/600x400.png"

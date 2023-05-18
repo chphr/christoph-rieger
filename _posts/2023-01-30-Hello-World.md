@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 author: Christoph
-tags: ["blog", "personal"]
+categories: ["blog", "personal"]
 date: 2023-01-30
 featured: false
 image: "/assets/images/posts/helloworld.jpg"
