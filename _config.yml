@@ -21,7 +21,7 @@ plugins:
   - jekyll-toc
 
 postcss:
-  cache: false
+  cache: true
 
 # _config.yml
 toc:
