@@ -7,6 +7,8 @@ date: 2023-01-30
 featured: false
 image: "/assets/images/posts/helloworld.jpg"
 toc: true
+isreview: true
+rating: 3
 ---
 
 # Headline
