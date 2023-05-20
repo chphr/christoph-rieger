@@ -1,11 +1,6 @@
 ---
 ---
 
-/* Example using Tailwind */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
