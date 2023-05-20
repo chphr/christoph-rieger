@@ -11,12 +11,13 @@ module.exports = {
       },
     },
     content: [
-      './**/*.html',
-      './_includes/**/*.html',
-      './_layouts/**/*.html', 
-      './blog/*.html', 
-      './_posts/*.html', 
-      './*.html'
+      './**/*.{html,markdown,md}',
+      './_includes/**/*.{html,markdown,md}',
+      './_layouts/**/*.{html,markdown,md}', 
+      './blog/*.{html,markdown,md}', 
+      './_posts/*.{html,markdown,md}', 
+      './*.{html,markdown,md}',
+      './_site/**/*.{html,markdown,md}'
     ],
   }
   

@@ -1,5 +1,11 @@
+# MAC 
+.DS_Store
+# Temporary editor files
+*~
+# Jekyll
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+# Node
 node_modules
