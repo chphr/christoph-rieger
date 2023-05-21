@@ -17,7 +17,8 @@ module.exports = {
       './blog/*.{html,markdown,md}', 
       './_posts/*.{html,markdown,md}', 
       './*.{html,markdown,md}',
-      './_site/**/*.{html,markdown,md}'
+      './_site/**/*.{html,markdown,md}',
+      './*'
     ],
   }
   
