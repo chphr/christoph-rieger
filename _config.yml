@@ -23,9 +23,9 @@ plugins:
 postcss:
   cache: false
 
-# _config.yml
-toc:
-  item_class: text-slate-400 hover:text-lime-300 leading-7
+# Table of Contents
+#toc:
+#  item_class: text-slate-400 hover:text-lime-300 leading-7
 
 # Archives
 jekyll-archives:
