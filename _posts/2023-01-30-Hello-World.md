@@ -9,6 +9,8 @@ image: "/assets/images/posts/helloworld.jpg"
 toc: true
 isreview: true
 rating: 3
+comments: true
+comments_id: 2
 ---
 
 # Headline

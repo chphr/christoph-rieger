@@ -21,7 +21,7 @@ post_class: post-template
             {% if page.isreview == true %}
             <div class="mt-5">
                 <div class="flex flex-col">
-                    <p class="text-white font-semibold leading-7 mb-1">My Review</p>
+                    <p class="text-white font-semibold leading-7 mb-1">My review</p>
                     <div class="mx-auto">
                         <div class="rating-holder">
                             <div class="c-rating c-rating--regular" data-rating-value="{{page.rating}}">
@@ -35,10 +35,12 @@ post_class: post-template
                     </div>
                 </div>
             </div>
+            <!-- TODO: Add box with link to product -->
+            <!-- TODO: Refactor Sidebar -->
             {% endif %}
             <div class="my-5">
                 <div class="flex flex-col">
-                    <p class="text-white font-semibold leading-7 mb-1">Support the Blog</p>
+                    <p class="text-white font-semibold leading-7 mb-1">Support the blog</p>
                     <div class="mx-auto">
                         <a href="https://www.buymeacoffee.com/chphr"><img
                                 src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=chphr&button_colour=bef264&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
@@ -48,3 +50,8 @@ post_class: post-template
         </div>
     </div>
 </div>
+{% if page.comments == true %}
+<script src="https://utteranc.es/client.js" repo="chphr/christoph-rieger" issue-number={{page.comments_id}}
+    theme="github-dark" crossorigin="anonymous" async>
+    </script>
+{% endif %}

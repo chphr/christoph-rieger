@@ -42,3 +42,10 @@ body {
     opacity: 0;
     transition: opacity .25s;
 }
+
+/** utterances comments **/
+
+.utterances {
+    min-width: 100%;
+    width: 100%;
+} 
