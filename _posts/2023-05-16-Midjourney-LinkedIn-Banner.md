@@ -11,6 +11,7 @@ isreview: false
 rating: 5
 comments: true
 comments_id: 3
+last_modified_at: 2023-05-22
 ---
 
 Let's use the the AI generator Midjourney to generate a banner for your LinkedIn profile.

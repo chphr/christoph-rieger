@@ -3,6 +3,9 @@ layout: default
 archive: false
 post_class: post-template
 ---
+<script type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=646cbd97a660b80019d55c82&product=inline-share-buttons&source=platform"
+    async="async"></script>
 
 <div class="flex flex-row">
     <div class="basis-3/4 p-5">
@@ -16,6 +19,14 @@ post_class: post-template
                 <p class="text-white font-semibold leading-7 mt-5">In this article</p>
                 <div class="text-slate-400 leading-7">
                     {% toc %}
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="flex flex-col">
+                    <p class="text-white font-semibold leading-7 mb-1">Share this post</p>
+                    <div class="mx-auto">
+                        <div class="sharethis-inline-share-buttons"></div>
+                    </div>
                 </div>
             </div>
             {% if page.isreview == true %}
@@ -38,7 +49,7 @@ post_class: post-template
             <!-- TODO: Add box with link to product -->
             <!-- TODO: Refactor Sidebar -->
             {% endif %}
-            <div class="my-5">
+            <div class="mt-5">
                 <div class="flex flex-col">
                     <p class="text-white font-semibold leading-7 mb-1">Support the blog</p>
                     <div class="mx-auto">
