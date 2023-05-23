@@ -15,18 +15,11 @@ body {
     background-color: rgb(24, 24, 24); 
     background-attachment:fixed;
 }
-
-.navfoot-bg {
-    background-repeat:no-repeat;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgb(8,162,198)), to(rgb(246,82,44))); 
-}
-
 .footer-bg {
     background-repeat:no-repeat;
     background-color: rgb(24, 24, 24); 
     background-attachment:fixed;
 }
-
 
 .footer-end-bg{
     background-color: rgba(0, 0, 0, 0.2);
