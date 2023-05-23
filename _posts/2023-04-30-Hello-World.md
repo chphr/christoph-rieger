@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 author: Christoph
 categories: ["blog"]
-date: 2023-01-30
+date: 2023-04-30
 featured: false
 image: "/assets/images/posts/helloworld.jpg"
 toc: true
@@ -14,9 +14,9 @@ comments_id: 2
 last_modified_at: 2023-05-22
 ---
 
-# Hello World
-
 After a decade in technology spanning multiple industries from small IoT startups to Shopify, I create this blog to share what I learned throughout the years. Whether you're a seasoned developer or just starting out, this blog will provide you with valuable insights and information to help you stay ahead of the curve.
+
+# Blog Content
 
 Here, we'll cover topics such as:
 
