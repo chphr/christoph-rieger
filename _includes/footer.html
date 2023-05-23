@@ -1,4 +1,6 @@
 <!-- Footer section with social media icons and newsletter sign-up -->
+<!-- Nested in container -->
+
 <footer class="footer-bg text-center text-white container mx-auto">
     <div class="mx-auto" id="socials">
         <div class="flex-col">
@@ -10,20 +12,11 @@
 
                         <div class="col p-5 align-self-center text-center">
                             {% assign categories_list = site.categories %}
-                            {% if categories_list.first[0] == null %}
-                            {% for category in categories_list %}
-                            <a class="m-1 border rounded-full p-2 catlinks hover:text-lime-300 hover:border-white"
-                                href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{
-                                category |
-                                camelcase }} - {{ site.tags[category].size }}</a>
-                            {% endfor %}
-                            {% else %}
                             {% for category in categories_list %}
                             <a class="m-1 border rounded-full p-2 catlinks hover:text-lime-300 hover:border-white"
                                 href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{
                                 category[0] | camelcase }} - {{ category[1].size }}</a>
                             {% endfor %}
-                            {% endif %}
                             {% assign categories_list = nil %}
                         </div>
                     </div>
@@ -33,7 +26,7 @@
                     <div class="my-3">
                         <h5 class="mb-1 font-bold">Newsletter signup</h5>
                         <span class="text-white text-sm ">
-                            Sign up to to stay up to date with the blog content.
+                            Sign up to to stay up to date with the blog content. Soon ™
                         </span>
 
                         <form class="mt-3">
@@ -61,12 +54,11 @@
         </div>
     </div>
 </footer>
-
 <!-- Copyright section -->
 <!-- Social media icons container -->
 <div class="text-white footer-end-bg p-4">
-    <div class="my-3 flex flex-col">
-        <h5 class="mb-3 font-bold mx-auto ">Connect on socials</h5>
+    <div class="mb-3 flex flex-col">
+        <h5 class="font-bold mx-auto ">Connect on socials</h5>
         <div class="col p-1 align-self-center text-center">
             {% for item in site.data.footer %}
             <a href="{{ item.link }}" type="button"
@@ -79,7 +71,7 @@
             {% endfor %}
         </div>
     </div>
-    <div class="pt-2 text-center">
+    <div class="text-center">
         © 2023 Copyright ~
         <a href="https://www.christoph-rieger.ca/" class="hover:underline">Christoph Rieger</a>
     </div>

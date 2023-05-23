@@ -9,10 +9,11 @@ personal website and blog
 # Resources
 
 [Jekyll Step by Step setup](https://jekyllrb.com/docs/step-by-step/01-setup/)
-[Jekyll SEO tags](https://github.com/jekyll/jekyll-seo-tag)
 [Jekyll Table of Contents](https://github.com/toshimaru/jekyll-toc)
 
 # Component Documentation
 
+[Jekyll SEO tags](https://github.com/jekyll/jekyll-seo-tag)
 [jekyll-feed](https://github.com/jekyll/jekyll-feed)
+[jekyll-toc](https://github.com/toshimaru/jekyll-toc)
 [utteranc.es](https://utteranc.es/)

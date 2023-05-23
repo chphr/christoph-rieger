@@ -19,6 +19,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-toc
+  - jekyll-sitemap
 
 # PostCSS
 postcss:
@@ -58,3 +59,13 @@ adsense-data-ad-slot: ""
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
 exclude: [README.md, Gemfile, Gemfile.lock]
+
+# SEO tags
+social:
+  name: Christoph Rieger
+  links:
+    - https://twitter.com/chphr_ca
+    - https://www.facebook.com/chphrca
+    - https://www.instagram.com/criegerca/
+    - https://www.linkedin.com/in/christoph-rieger/
+    - https://github.com/chphr
