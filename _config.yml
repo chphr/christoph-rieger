@@ -20,8 +20,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
 
+# PostCSS
 postcss:
   cache: false
+
+# TOC
+toc:
+  min_level: 1
+  item_class: toc-entry hover:text-lime-300
 
 # Archives
 jekyll-archives:
@@ -51,5 +57,4 @@ adsense-data-ad-slot: ""
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
-
 exclude: [README.md, Gemfile, Gemfile.lock]
