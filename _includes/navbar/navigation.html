@@ -1,29 +1,53 @@
-<nav class="navfoot-bg">
-  <div class="container mx-auto flex justify-between items-center">
-
-    <!-- Navigation -->
-    <div class=" flex items-center justify-center basis-1/3">
-      {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url==item.link %}
-        class="font-bold text-white border-b-2 border-lime-300 mx-1.5 sm:mx-6" {% else %}
-        class="font-bold text-white border-b-2 border-transparent hover:text-gray-800  hover:border-lime-300 mx-1.5 sm:mx-6"
-        {% endif %}>{{
-        item.name }}</a>
-      {% endfor %}
-    </div>
-
-    <!-- Blog logo -->
-    <div class="flex items-center justify-center basis-1/3">
-      <a class="" href="#">
-        <img class="h-auto md:w-20" src="/assets/images/logo.png" alt="logo">
-      </a>
-    </div>
-
-    <!-- Contact me button -->
-    <div class=" flex items-center justify-center basis-1/3">
-      <a class="border-2 border-white rounded-full font-bold hover:text-gray-800 text-white px-8 py-2"
-        href="#socials">get in
-        touch</a>
+<nav class="footer-end-bg shadow-lg">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between">
+      <div class="flex grow justify-between ">
+        <div>
+          <!-- Website Logo -->
+          <a href="{{ site.baseurl }}" class="flex items-center py-4 px-2">
+            <img src="/assets/images/logo.png" alt="Logo" class="h-8 w-8 mr-2">
+            <span class="font-semibold text-white text-lg">christoph-rieger.ca</span>
+          </a>
+        </div>
+        <!-- Primary Navbar items -->
+        <div class="hidden md:flex items-center space-x-1">
+          {% for item in site.data.navigation %}
+          <a href="{{ item.link }}" {% if page.url==item.link %} class="py-4 px-2 text-lime-300 font-semibold" {% else
+            %} class="py-4 px-2 text-gray-500 font-semibold hover:text-lime-300 transition duration-300" {% endif %}>{{
+            item.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      <!-- Mobile menu button -->
+      <div class="md:hidden flex items-center">
+        <button class="outline-none mobile-menu-button">
+          <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
+  <!-- mobile menu -->
+  <div class="hidden mobile-menu">
+    <ul class="">
+      {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.link }}" {% if page.url==item.link %}
+          class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold" {% else %}
+          class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" {% endif %}>{{
+          item.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
 </nav>
