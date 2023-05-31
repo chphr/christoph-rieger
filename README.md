@@ -17,3 +17,7 @@ personal website and blog
 [jekyll-feed](https://github.com/jekyll/jekyll-feed)
 [jekyll-toc](https://github.com/toshimaru/jekyll-toc)
 [utteranc.es](https://utteranc.es/)
+
+# Credits
+
+[Mediumish - Jekyll Theme by https://www.wowthemes.net](https://github.com/wowthemesnet/mediumish-theme-jekyll/)

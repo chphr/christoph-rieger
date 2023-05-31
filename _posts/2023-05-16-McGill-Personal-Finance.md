@@ -5,7 +5,7 @@ author: Christoph
 categories: ["growth", "course"]
 date: 2023-05-23
 featured: false
-image: "https://placehold.co/600x400.png"
+image: "/assets/images/posts/mcgill.jpg"
 toc: true
 isreview: true
 rating: 5
