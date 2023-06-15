@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: .well-known/brave-payments-verification.txt
+---
+
+This is a Brave Rewards publisher verification file.
+
+Domain: christoph-rieger.ca
+Token: 79d736731dcaa516a8cf386a02f3d99e304233660242992c6bf9f6f97079bad9
