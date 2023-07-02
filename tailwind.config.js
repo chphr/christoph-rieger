@@ -18,6 +18,7 @@ module.exports = {
       './_posts/*.{html,markdown,md}', 
       './*.{html,markdown,md}',
       './_site/**/*.{html,markdown,md}',
+      './about/*.{html,markdown,md}',
       './*'
     ],
   }

@@ -1,5 +1,5 @@
 ---
 layout: categories
-title: Categories
+title: Christoph Rieger • Blog Categories
 permalink: /categories
 ---
