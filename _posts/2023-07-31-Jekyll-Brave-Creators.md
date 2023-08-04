@@ -7,7 +7,7 @@ date: 2023-07-31
 featured: false
 image: "/assets/images/posts/brave.png"
 toc: true
-isreview: true
+isreview: false
 rating: 5
 comments: true
 comments_id: 3
