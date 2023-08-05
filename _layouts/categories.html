@@ -3,14 +3,32 @@ title: "Categories"
 layout: default
 permalink: "/categories.html"
 ---
+
 <h1 class="invisible">Categories</h1>
-<div class="row listrecent">
-    {% for category in site.categories %}
-    <div class="section-title col-md-12 mt-4">
-        <h2 id="{{ category[0] | replace: " "," -" }}" class="text-white font-bold">Category <span
-                class="text-capitalize">{{ category[0] }}</span>
-        </h2>
+<div class="container">
+    <div class="row listrecent">
+        {% for category in site.categories %}
+        <div class="col-md-12 mt-6 mb-4 text-white text-2xl">
+            <div class="p-2">
+                <h2 class="" id="{{ category[0] | replace: " "," -" }}">Category <span
+                        class="capitalize font-semibold">{{
+                        category[0] }}</span>
+                </h2>
+            </div>
+            <div class="bg-gradient-to-r from-green-400 to-purple-500 h-1 w-full rounded">
+
+            </div>
+        </div>
+        {% assign pages_list = category[1] %}
+        {% for post in pages_list %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+        {% include postcard.html %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+        {% endfor %}
     </div>
-    <p>TODO</p>
-    {% endfor %}
 </div>
