@@ -12,15 +12,22 @@ post_class: post-template
     crossorigin="anonymous"></script>
 
 
-<div class="flex flex-row">
-    <div class="basis-3/4 p-5">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div class="md:col-span-3 p-5">
         <article class="prose max-w-none prose-invert">
             {{ content }}
         </article>
+        <div class="pt-2">
+            {% if page.comments == true %}
+            <script src="https://utteranc.es/client.js" repo="chphr/christoph-rieger" issue-number={{page.comments_id}}
+                theme="github-dark" crossorigin="anonymous" async>
+                </script>
+            {% endif %}
+        </div>
     </div>
-    <div class="basis-1/4">
-        <div class="flex flex-col">
-            <div class="">
+    <div class="col">
+        <div class="flex flex-col ">
+            <div class="text-center md:text-left">
                 <p class="text-white font-semibold leading-7 mt-5">In this article</p>
                 <div class="text-slate-400 leading-7">
                     {% toc %}
@@ -28,7 +35,7 @@ post_class: post-template
             </div>
             <div class="mt-5">
                 <div class="flex flex-col">
-                    <p class="text-white font-semibold leading-7 mb-2">Share this post</p>
+                    <p class="text-white font-semibold leading-7 mb-2 text-center md:text-left">Share this post</p>
                     <div class="mx-auto">
                         <div class="sharethis-inline-share-buttons"></div>
                     </div>
@@ -37,7 +44,7 @@ post_class: post-template
             {% if page.isreview == true %}
             <div class="mt-5">
                 <div class="flex flex-col">
-                    <p class="text-white font-semibold leading-7 mb-2">My review</p>
+                    <p class="text-white font-semibold leading-7 mb-2 text-center md:text-left">My review</p>
                     <div class="mx-auto">
                         <div class="rating-holder hover:shadow shadow-lg shadow-lime-800">
                             <div class="c-rating c-rating--regular" data-rating-value="{{page.rating}}">
@@ -56,8 +63,9 @@ post_class: post-template
             {% endif %}
             <div class="mt-5">
                 <div class="flex flex-col">
-                    <p class="text-white font-semibold leading-7 mb-2">Support the blog</p>
-                    <div class="mx-auto">
+                    <p class="text-white font-semibold leading-7 mb-2 text-center md:text-left">Support the blog
+                    </p>
+                    <div class="mx-auto mb-4 md:mb-0">
                         <a href="https://www.buymeacoffee.com/chphr"><img
                                 src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=chphr&button_colour=bef264&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
                                 alt="buy me a coffee button image" class="hover:shadow shadow-lg shadow-lime-800" /></a>
@@ -67,8 +75,3 @@ post_class: post-template
         </div>
     </div>
 </div>
-{% if page.comments == true %}
-<script src="https://utteranc.es/client.js" repo="chphr/christoph-rieger" issue-number={{page.comments_id}}
-    theme="github-dark" crossorigin="anonymous" async>
-    </script>
-{% endif %}
