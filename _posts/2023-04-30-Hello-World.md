@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Hello World
+title: Blog - Hello World
+blogtitle: Hello World
 author: Christoph
-categories: ["blog"]
+category: blog
 date: 2023-04-30
 featured: false
 image: "/assets/images/posts/helloworld.jpg"

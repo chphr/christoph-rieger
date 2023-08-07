@@ -1,24 +1,39 @@
-<div class="mx-auto">
-    <div class="offdark-bg hover:shadow-lg hover:shadow-lime-800 rounded-lg max-w-sm h-full flex flex-col">
-        <div class="">
-            <a href="{{ post.url | absolute_url }}">
-                <img class="rounded-t-lg object-cover h-48 w-96" src="{{ post.image }}" alt="{{ post.title }}">
-            </a>
+<div
+    class="hover:shadow-xl relative h-full bg-slate-800 rounded-3xl p-px before:absolute before:w-80 before:h-80 before:-left-40 before:-top-40 before:bg-slate-400 before:rounded-full before:opacity-0 before:pointer-events-none before:transition-opacity before:duration-500 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:group-hover:opacity-100 before:z-10 before:blur-[100px] after:absolute after:w-96 after:h-96 after:-left-48 after:-top-48 after:bg-indigo-500 after:rounded-full after:opacity-0 after:pointer-events-none after:transition-opacity after:duration-500 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:hover:opacity-10 after:z-30 after:blur-[100px] overflow-hidden">
+    <!-- 1. Before pseudo element -->
+    <!-- 2. Card content -->
+
+    <div class="relative h-full bg-slate-900 p-6 rounded-[inherit] z-20 overflow-hidden">
+        <!-- Radial gradient -->
+        <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square"
+            aria-hidden="true">
+            <div class="absolute inset-0 translate-z-0 bg-slate-800 rounded-full blur-[80px]"></div>
         </div>
-        <div class="grow p-5">
-            <a href="{{ post.url | absolute_url }}">
-                <h5 class="text-gray-100 font-bold text-2xl tracking-tight mb-2">{{ post.title }}
-                </h5>
-            </a>
-            <p class="font-normal text-gray-300">{{ post.excerpt | strip_html | truncatewords:20 }}</p>
-        </div>
-        <div class="flex flex-row px-5 mb-5">
-            {% for tag in post.categories %}
-            <a class="border rounded-full catlinks text-white hover:text-lime-300 hover:border-white font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center mr-3"
-                href="#">
-                {{ tag }}
-            </a>
-            {% endfor %}
+        <div class="flex flex-col h-full items-center text-center">
+            <!-- Text -->
+            <div class="ml-auto">
+                <a class="inline-flex justify-center items-center whitespace-nowrap rounded-lg bg-slate-800 hover:bg-slate-900 border border-slate-700 px-3 py-1.5 text-sm font-medium text-slate-300 focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150"
+                    href="/categories#{{ post.category }}">
+                    <span>{{ post.category }}</span>
+                </a>
+            </div>
+            <div class="my-3">
+                <a href="{{ post.url | absolute_url }}">
+                    <h2 class="text-xl text-slate-200 font-bold mb-1">{{ post.blogtitle }}</h2>
+                </a>
+            </div>
+            <!-- Image -->
+            <div class="relative inline-flex">
+                <a href="{{ post.url | absolute_url }}">
+
+                    <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
+                        aria-hidden="true"></div>
+                    <img class="inline-flex object-cover h-48 w-96 rounded-xl" src="{{ post.image }}"
+                        alt="{{ post.title }}" />
+                </a>
+
+            </div>
         </div>
     </div>
+    <!-- 3. After pseudo element -->
 </div>

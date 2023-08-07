@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Jekyll - Enabling Brave Creators
+blogtitle: Enabling Brave Creators
 author: Christoph
-categories: ["jekyll"]
+category: jekyll
 date: 2023-07-31
 featured: false
 image: "/assets/images/posts/brave.png"

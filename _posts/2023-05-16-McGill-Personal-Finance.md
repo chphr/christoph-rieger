@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Course Review - McGill Personal Finance Essentials
+blogtitle: McGill Personal Finance Essentials
 author: Christoph
-categories: ["growth", "course"]
+category: course review
 date: 2023-05-23
 featured: false
 image: "/assets/images/posts/mcgill.jpg"
