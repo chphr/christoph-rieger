@@ -20,6 +20,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
   - jekyll-sitemap
+  - jekyll-figure
 
 # PostCSS
 postcss:
@@ -28,7 +29,7 @@ postcss:
 # TOC
 toc:
   min_level: 1
-  item_class: toc-entry hover:text-lime-300
+  item_class: toc-entry hover:text-white
 
 # Archives
 jekyll-archives:

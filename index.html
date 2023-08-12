@@ -16,7 +16,8 @@ title: "Christoph Rieger • Blog"
   </div>
   -->
   <!-- Post Grid -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 sm:gap-4 md:gap-6 py-5 postgrid" data-spotlight>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 sm:gap-4 md:gap-6 md:py-5 py-2 postgrid px-2 md:px-0"
+    data-spotlight>
     {% for post in paginator.posts %}
     {% include postcard.html %}
     {% endfor %}

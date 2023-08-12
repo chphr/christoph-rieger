@@ -3,7 +3,7 @@
     <!-- 1. Before pseudo element -->
     <!-- 2. Card content -->
 
-    <div class="relative h-full bg-slate-900 p-6 rounded-[inherit] z-20 overflow-hidden">
+    <div class="relative h-full bg-slate-900 p-4 rounded-[inherit] z-20 overflow-hidden">
         <!-- Radial gradient -->
         <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square"
             aria-hidden="true">
@@ -11,12 +11,6 @@
         </div>
         <div class="flex flex-col h-full items-center text-center">
             <!-- Text -->
-            <div class="ml-auto">
-                <a class="inline-flex justify-center items-center whitespace-nowrap rounded-lg bg-slate-800 hover:bg-slate-900 border border-slate-700 px-3 py-1.5 text-sm font-medium text-slate-300 focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150"
-                    href="/categories#{{ post.category }}">
-                    <span>{{ post.category }}</span>
-                </a>
-            </div>
             <div class="my-3">
                 <a href="{{ post.url | absolute_url }}">
                     <h2 class="text-xl text-slate-200 font-bold mb-1">{{ post.blogtitle }}</h2>
@@ -32,6 +26,12 @@
                         alt="{{ post.title }}" />
                 </a>
 
+            </div>
+            <div class="mx-auto mt-4">
+                <a class="inline-flex justify-center items-center whitespace-nowrap rounded-lg bg-slate-800 hover:bg-slate-900 border border-slate-700 px-3 py-1.5 text-sm font-medium text-slate-300 focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150"
+                    href="/categories#{{ post.category }}">
+                    <span>{{ post.category }}</span>
+                </a>
             </div>
         </div>
     </div>

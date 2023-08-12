@@ -6,7 +6,7 @@ author: Christoph
 category: course review
 date: 2023-05-23
 featured: false
-image: "/assets/images/posts/mcgill.jpg"
+image: "/assets/images/posts/mcgill.png"
 toc: true
 isreview: true
 rating: 5
@@ -14,8 +14,6 @@ comments: true
 comments_id: 2
 last_modified_at: 2023-05-23
 ---
-
-Various books and courses have been an essential part of my journey to becoming financially literate and furthering my independence. In this review, I’d like to introduce you to the free Personal Finance Essentials program set up by McGill University, RBC Future Launch and The Globe and Mail.
 
 # Course Overview
 
