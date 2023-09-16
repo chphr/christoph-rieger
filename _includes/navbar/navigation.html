@@ -1,5 +1,5 @@
 <nav class="sticky top-0 z-10 mx-auto">
-  <div class="px-4 mx-auto shadow-xl  dark-grey-bg rounded-b-2xl md:rounded-b-3xl">
+  <div class="px-4 mx-auto md:shadow-xl dark-grey-bg md:rounded-b-3xl">
     <div class="flex justify-between">
       <div class="flex justify-between grow ">
         <div>
@@ -22,8 +22,8 @@
       <!-- Mobile menu button -->
       <div class="flex items-center md:hidden">
         <button class="w-10 h-10 rounded outline-none mobile-menu-button bg-sky-600 hover:bg-sky-700">
-          <svg class="mx-auto text-white  w-7 h-7 hover:text-white" x-show="!showMenu" fill="none"
-            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+          <svg class="mx-auto text-white w-7 h-7 hover:text-white" x-show="!showMenu" fill="none" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
             <path d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
@@ -31,12 +31,13 @@
     </div>
   </div>
   <!-- mobile menu -->
-  <div class="hidden mobile-menu">
+  <div class="hidden mobile-menu rounded-b-3xl dark-grey-bg">
     <ul class="">
       {% for item in site.data.navigation %}
       <li>
-        <a href="{{ item.link }}" {% if page.url==item.link %} class="block px-2 py-4 text-sm font-semibold text-white"
-          {% else %} class="block px-2 py-4 text-sm text-gray-500 transition duration-300 hover:text-white" {% endif
+        <a href="{{ item.link }}" {% if page.url==item.link %}
+          class="block px-2 py-4 text-sm font-semibold text-center text-white" {% else %}
+          class="block px-2 py-4 text-sm text-center text-gray-200 transition duration-300 hover:text-white " {% endif
           %}>{{
           item.name }}</a>
       </li>
