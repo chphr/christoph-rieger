@@ -21,6 +21,7 @@ plugins:
   - jekyll-toc
   - jekyll-sitemap
   - jekyll-figure
+  - jekyll-last-modified-at
 
 # PostCSS
 postcss:
@@ -29,7 +30,7 @@ postcss:
 # TOC
 toc:
   min_level: 1
-  item_class: toc-entry hover:text-white
+  item_class: toc-entry hover:text-black
 
 # Archives
 jekyll-archives:
@@ -41,7 +42,7 @@ jekyll-archives:
 
 # Pagination
 paginate: 9
-paginate_path: /page:num/
+paginate_path: /blog/page:num/"
 
 # Markdown Render
 markdown: kramdown
@@ -50,7 +51,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
-      line_numbers: false
+      line_numbers: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "enabled"
@@ -67,6 +68,5 @@ social:
   links:
     - https://twitter.com/chphr_ca
     - https://www.facebook.com/chphrca
-    - https://www.instagram.com/criegerca/
     - https://www.linkedin.com/in/christoph-rieger/
     - https://github.com/chphr

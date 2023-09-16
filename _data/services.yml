@@ -1,0 +1,12 @@
+- name: Web Design
+  icon: fa-wand-magic-sparkles
+  desc: What your visitors see plays a key role in converting them from just visitors to paying customers. Don’t let design get in the way.
+  image: design.png
+- name: Data Architecture and Migration
+  icon: fa-database
+  desc: Is your business migrating data between tools or platforms? Let me help you map and migrate the data.
+  image: arch.png
+- name: Education
+  icon: fa-chalkboard-user
+  desc: Curious about stepping into the world of development? I am offering courses to help you get started.
+  image: edu.png

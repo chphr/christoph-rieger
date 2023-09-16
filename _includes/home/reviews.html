@@ -1,0 +1,8 @@
+<section class="bg-footer">
+    <h2>Reviews</h2>
+    {% for item in site.data.reviews %}
+    <a href="{{ item.link }}" {% if page.url==item.link %} class="py-4 px-2 text-white font-semibold" {% else %}
+        class="py-4 px-2 text-gray-500 font-semibold hover:text-white transition duration-300" {% endif %}>{{
+        item.name }}</a>
+    {% endfor %}
+</section>

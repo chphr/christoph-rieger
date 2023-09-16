@@ -1,0 +1,25 @@
+<div class="flex px-3 pt-4 mx-auto md:mx-0">
+    <div class="max-w-sm overflow-hidden">
+        <a href="{{ post.url | absolute_url }}">
+            <img class="inline-flex object-cover h-48 w-96 rounded-2xl grayscale-0 md:grayscale-[15%] hover:grayscale-0 hover:shadow-xl ease-in duration-200"
+                src="{{ post.image }}" alt="{{ post.title }}"></a>
+        <div class="py-4 ">
+            <a href="/categories#{{ post.category }}">
+                <span
+                    class="inline-block px-3 py-1 mr-2 text-sm font-semibold text-gray-700 bg-white rounded-full hover:text-sky-600 ">#{{
+                    post.category }}</span></a>
+        </div>
+        <div class="pb-4 ">
+            <a href="{{ post.url | absolute_url }}">
+                <div class="mb-2 text-xl font-bold">{{ post.blogtitle }}</div>
+                <p class="text-base text-gray-700">
+                    {{post.gist}} </p>
+            </a>
+        </div>
+        <div class="pb-4 text-center ">
+            <span class="px-3 py-1 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><span
+                    class="text-sky-600">•</span> {{post.author}} <span class="text-sky-600">•</span> {{
+                post.date | date_to_string: "ordinal" }} <span class="text-sky-600">•</span> </span>
+        </div>
+    </div>
+</div>

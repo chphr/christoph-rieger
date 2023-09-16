@@ -11,61 +11,63 @@ post_class: post-template
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8315791014160137"
     crossorigin="anonymous"></script>
 
-
-<div class="grid grid-cols-1 md:grid-cols-4">
-    <div class="md:col-span-3 p-5">
-        <article class="prose max-w-none prose-invert post-bg rounded-xl p-4">
-            {{ content }}
-        </article>
-        <div class="mt-2 p-2 post-bg rounded-xl">
-            {% if page.comments == true %}
-            <script src="https://utteranc.es/client.js" repo="chphr/christoph-rieger" issue-number={{page.comments_id}}
-                theme="github-dark" crossorigin="anonymous" async>
-                </script>
-            {% endif %}
+<div class="container mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-4">
+        <div class="p-5 md:col-span-3">
+            <article class="p-4 prose max-w-none rounded-xl">
+                {{ content }}
+            </article>
+            <div class="p-2 mt-2 ">
+                {% if page.comments == true %}
+                <script src="https://utteranc.es/client.js" repo="chphr/christoph-rieger"
+                    issue-number={{page.comments_id}} theme="github-light" crossorigin="anonymous" async>
+                    </script>
+                {% endif %}
+            </div>
         </div>
-    </div>
-    <div class="col">
-        <div class="flex flex-col">
-            <div class="mt-5">
-                {% include post/author.html %}
-            </div>
-            <div class="text-center md:text-left w-full post-bg rounded-xl p-6 mt-2">
-                <p class="text-white font-semibold leading-7 ">In this article</p>
-                <div class="text-slate-400 leading-7">
-                    {% toc %}
+        <div class="col">
+            <div class="flex flex-col">
+                <!-- Author -->
+                <div class="mt-5">
+                    {% include post/author.html %}
                 </div>
-            </div>
-            <div class="w-full post-bg rounded-xl p-6 mt-2">
-                <div class="flex flex-col">
-                    <p class="text-white font-semibold leading-7 mb-2 text-center md:text-left">Share this post</p>
-                    <div class="mx-auto">
-                        <div class="sharethis-inline-share-buttons"></div>
+                <div class="w-full p-6 mt-2 text-center md:text-left rounded-xl">
+                    <p class="font-semibold leading-7 ">In this article</p>
+                    <div class="leading-7 text-slate-400">
+                        {% toc %}
                     </div>
                 </div>
-            </div>
-            {% if page.isreview == true %}
-            <div class="w-full post-bg rounded-xl p-6 mt-2">
-                <div class="flex flex-col">
-                    <p class="text-white font-semibold leading-7 mb-2 text-center md:text-left">My review</p>
-                    <div class="mx-auto">
-                        <div class="rating-holder hover:shadow shadow-lg shadow-lime-800">
-                            <div class="c-rating c-rating--regular" data-rating-value="{{page.rating}}">
-                                <button>1</button>
-                                <button>2</button>
-                                <button>3</button>
-                                <button>4</button>
-                                <button>5</button>
+                <div class="w-full p-6 pb-8 mt-2 rounded-xl">
+                    <div class="flex flex-col">
+                        <p class="mb-2 font-semibold leading-7 text-center md:text-left">Share this post</p>
+                        <div class="mx-auto">
+                            <div class="sharethis-inline-share-buttons"></div>
+                        </div>
+                    </div>
+                </div>
+                {% if page.isreview == true %}
+                <div class="w-full p-6 mt-2 rounded-xl">
+                    <div class="flex flex-col">
+                        <p class="mb-2 font-semibold leading-7 text-center md:text-left">My review</p>
+                        <div class="mx-auto">
+                            <div class="shadow-lg rating-holder hover:shadow shadow-lime-800">
+                                <div class="c-rating c-rating--regular" data-rating-value="{{page.rating}}">
+                                    <button>1</button>
+                                    <button>2</button>
+                                    <button>3</button>
+                                    <button>4</button>
+                                    <button>5</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- TODO: Add box with link to product -->
-            <!-- TODO: Refactor Sidebar -->
-            {% endif %}
-            <div class="w-full post-bg rounded-xl p-6 mt-2">
-                {% include post/buymeacoffee.html %}
+                <!-- TODO: Add box with link to product -->
+                <!-- TODO: Refactor Sidebar -->
+                {% endif %}
+                <div class="w-full p-6 pb-8 mt-2 rounded-xl">
+                    {% include post/buymeacoffee.html %}
+                </div>
             </div>
         </div>
     </div>

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Jekyll - Enabling Brave Creators
-blogtitle: Enabling Brave Creators
+title: Upgrading Jekyll Websites - A Guide to Enabling Brave Creators
+blogtitle: Upgrading Jekyll Websites - A Guide to Enabling Brave Creators
+gist: Learn how to add your static Jekyll website as a channel for the Brave Creators program
 author: Christoph
 category: jekyll
 date: 2023-07-31
-featured: false
+featured: true
 image: "/assets/images/posts/brave.png"
 toc: true
 isreview: false

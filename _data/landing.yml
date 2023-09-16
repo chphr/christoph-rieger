@@ -1,0 +1,36 @@
+- company: ThoughtWire
+  title: Solutions Architect
+  tenure: "2018 - 2022"
+  job: true
+  logo: "tw.jpeg"
+  location: "Toronto, ON"
+- company: Shopify
+  title: Solutions Architect
+  tenure: "2022 - 2023"
+  job: true
+  logo: "shopify.png"
+  location: "Ottawa, ON"
+- company: Affirm
+  title: Enterprise Technical Account Manager
+  tenure: "2023"
+  job: true
+  logo: "affirm.jpeg"
+  location: "San Francisco, CA"
+- company: DHBW Karlsruhe
+  title: Bachelor in Computer Science
+  tenure: "2009 - 2012"
+  job: false
+  logo: "dhbw.jpeg"
+  location: "Karlsruhe, Germany"
+- company: Brainstation
+  title: Data Science Certificate
+  tenure: "2020"
+  job: false
+  logo: "brainstation.jpg"
+  location: "Toronto, ON"
+- company: Brainstation
+  title: Machine Learning Certificate
+  tenure: "2023"
+  job: false
+  logo: "brainstation.jpg"
+  location: "Toronto, ON"

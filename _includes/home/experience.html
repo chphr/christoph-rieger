@@ -1,0 +1,56 @@
+<section class="px-2 my-8">
+    <div class="container mx-auto">
+        <div class="flex flex-col">
+            <div class="">
+                <h2 class="pb-6 text-4xl font-bold leading-none tracking-tight text-center text-black">
+                    My
+                    <span class="text-sky-600">Education</span> & <span class="text-sky-600">Work Experience</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-0 mx-auto md:pt-4">
+        <div class="flex flex-col justify-between md:flex-row">
+            <!-- Contact Details -->
+            <div class="flex flex-col w-full pr-0 my-auto md:pr-8">
+                <h2
+                    class="pb-2 my-2 text-4xl font-semibold leading-none tracking-tight text-center text-sky-600 md:text-left md:my-0 ">
+                    Education </h2>
+                {% assign edu = site.data.landing | where: 'job', false %}
+                {% for item in edu %}
+                <div class="flex flex-row items-center my-2 bg-white border rounded-lg shadow border-stone-200">
+                    <div class="">
+                        <img class="object-cover w-24 w-full h-auto px-2 mr-2"
+                            src="/assets/images/about/{{ item.logo }}" alt="{{ item.name }} logo">
+                    </div>
+                    <div class="flex flex-col justify-between p-4 leading-normal grow">
+                        <h5 class="text-2xl font-bold tracking-tight text-gray-900">{{ item.company }}</h5>
+                        <p class="text-gray-600">{{ item.title }} • {{ item.tenure }}</p>
+                        <p class="text-gray-500">📍 {{ item.location }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <!-- Contact Form -->
+            <div class="flex flex-col w-full pl-0 md:pl-8">
+                <h2
+                    class="pb-2 my-2 text-4xl font-semibold leading-none tracking-tight text-center text-sky-600 md:text-left md:my-0">
+                    Work Experience </h2>
+                {% assign work = site.data.landing | where: 'job', true %}
+                {% for item in work %}
+                <div class="flex flex-row items-center my-2 bg-white border border-gray-200 rounded-lg shadow">
+                    <div class="">
+                        <img class="object-cover w-24 w-full h-auto px-2 mr-2"
+                            src="/assets/images/about/{{ item.logo }}" alt="{{ item.name }} logo">
+                    </div>
+                    <div class="flex flex-col justify-between p-4 leading-normal grow">
+                        <h5 class="text-2xl font-bold tracking-tight text-gray-900">{{ item.company }}</h5>
+                        <p class="text-gray-600">{{ item.title }} • {{ item.tenure }}</p>
+                        <p class="text-gray-500">📍 {{ item.location }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

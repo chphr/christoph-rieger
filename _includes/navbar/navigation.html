@@ -1,28 +1,29 @@
-<nav class="post-bg">
-  <div class="max-w-6xl mx-auto px-4">
+<nav class="sticky top-0 z-10 mx-auto">
+  <div class="px-4 mx-auto shadow-xl  dark-grey-bg rounded-b-2xl md:rounded-b-3xl">
     <div class="flex justify-between">
-      <div class="flex grow justify-between ">
+      <div class="flex justify-between grow ">
         <div>
           <!-- Website Logo -->
-          <a href="{{ site.url }}" class="flex items-center py-4 px-2">
-            <img src="/assets/images/logo.png" alt="Logo" class="h-8 w-8 mr-2">
-            <span class="font-semibold text-white text-lg">christoph-rieger.ca</span>
+          <a href="{{ site.url }}" class="flex items-center px-2 py-4">
+            <img src="/assets/images/logo.png" alt="Logo" class="w-8 h-8 mr-2">
+            <span class="text-lg font-semibold text-white">Christoph Rieger</span>
           </a>
         </div>
         <!-- Primary Navbar items -->
-        <div class="hidden md:flex items-center space-x-1">
+        <div class="items-center hidden space-x-1 md:flex">
           {% for item in site.data.navigation %}
-          <a href="{{ item.link }}" {% if page.url==item.link %} class="py-4 px-2 text-white font-semibold" {% else %}
-            class="py-4 px-2 text-gray-500 font-semibold hover:text-white transition duration-300" {% endif %}>{{
+          <a href="{{ item.link }}" {% if page.url==item.link %}
+            class="px-2 py-4 font-semibold text-white hover:text-sky-600" {% else %}
+            class="px-2 py-4 font-semibold text-gray-400 transition duration-300 hover:text-sky-600" {% endif %}>{{
             item.name }}</a>
           {% endfor %}
         </div>
       </div>
       <!-- Mobile menu button -->
-      <div class="md:hidden flex items-center">
-        <button class="outline-none mobile-menu-button">
-          <svg class=" w-6 h-6 text-white hover:text-white " x-show="!showMenu" fill="none" stroke-linecap="round"
-            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+      <div class="flex items-center md:hidden">
+        <button class="w-10 h-10 rounded outline-none mobile-menu-button bg-sky-600 hover:bg-sky-700">
+          <svg class="mx-auto text-white  w-7 h-7 hover:text-white" x-show="!showMenu" fill="none"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
             <path d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
@@ -34,8 +35,8 @@
     <ul class="">
       {% for item in site.data.navigation %}
       <li>
-        <a href="{{ item.link }}" {% if page.url==item.link %} class="block text-sm px-2 py-4 text-white  font-semibold"
-          {% else %} class="block text-sm px-2 py-4 text-gray-500 hover:text-white transition duration-300" {% endif
+        <a href="{{ item.link }}" {% if page.url==item.link %} class="block px-2 py-4 text-sm font-semibold text-white"
+          {% else %} class="block px-2 py-4 text-sm text-gray-500 transition duration-300 hover:text-white" {% endif
           %}>{{
           item.name }}</a>
       </li>

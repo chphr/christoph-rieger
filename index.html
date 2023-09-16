@@ -1,33 +1,29 @@
 ---
 layout: default
-title: "Christoph Rieger • Blog"
+title: "Christoph Rieger • Home"
 ---
 
-<h1 class="invisible">Blog</h1>
-<div class="">
-  <!-- Featured post template
-  <div class="flex flex-row ...">
-    <div class="">
-      {%- assign fp = site.posts | where: 'featured', true -%}
-      {%- for fp in site.posts -%}
-      {{- post.title -}}
-      {%- endfor -%}
-    </div>
-  </div>
-  -->
-  <!-- Post Grid -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 sm:gap-4 md:gap-6 md:py-5 py-2 postgrid px-2 md:px-0"
-    data-spotlight>
-    {% for post in paginator.posts %}
-    {% include postcard.html %}
-    {% endfor %}
-  </div>
-  <!-- Pagination
-================================================== -->
-  <div class="text-center">
-    <span class="navigation" role="navigation">
-      {% include pagination.html %}
-    </span>
-  </div>
-</div>
-<script src="assets/js/spotlight-effect.js"></script>
+<!--Hero Section-->
+{% include home/hero.html %}
+
+<!--Services Section-->
+{% include home/services.html %}
+
+<!--Experience Section-->
+{% include home/experience.html %}
+
+<!--Review Section
+{% include home/reviews.html %}
+-->
+
+<!--Contact Section-->
+{% include home/contact.html %}
+
+<!--Blog Section-->
+{% include home/featuredblog.html %}
+
+<!--Q&A Section-->
+{% include home/qa.html %}
+
+<!-- Font Awesome Kit -->
+<script src="https://kit.fontawesome.com/0ea8fd230e.js" crossorigin="anonymous"></script>

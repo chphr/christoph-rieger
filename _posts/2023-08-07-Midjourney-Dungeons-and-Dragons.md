@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Midjourney Dungeons & Dragons Maps
-blogtitle: Midjourney D&D Maps
+title: Mastering Midjourney - The Hidden Secrets of D&D Maps
+blogtitle: Mastering Midjourney - The Hidden Secrets of D&D Maps
+gist: Learn how to create Dungeons & Dragons battle maps using the Midjourney text-to-image AI
 author: Christoph
 category: midjourney
 date: 2023-08-07
-featured: false
+featured: true
 image: "/assets/images/posts/midjourneydnd.jpg"
 toc: true
 isreview: false
