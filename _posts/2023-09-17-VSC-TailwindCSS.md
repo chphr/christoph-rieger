@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Boost Your Efficiency - 4 Must-Have TailwindCSS VSCode Extensions
-blogtitle: Boost Your Efficiency - 4 Must-Have TailwindCSS VSCode Extensions
+title: Boost Your Efficiency - 4 Must-Have VSCode Extensions for TailwindCSS
+blogtitle: Boost Your Efficiency - 4 Must-Have VSCode Extensions for TailwindCSS
 gist: Are you using Visual Studio Code and Tailwind? Check out x extensions to boost your productivity
 author: Christoph
 category: tailwind
