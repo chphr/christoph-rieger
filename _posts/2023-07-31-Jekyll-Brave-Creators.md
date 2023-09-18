@@ -7,7 +7,7 @@ author: Christoph
 category: jekyll
 date: 2023-07-31
 featured: true
-image: "/assets/images/posts/brave.png"
+image: /assets/images/posts/brave.png
 toc: true
 isreview: false
 rating: 5

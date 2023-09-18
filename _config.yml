@@ -70,3 +70,5 @@ social:
     - https://www.facebook.com/chphrca
     - https://www.linkedin.com/in/christoph-rieger/
     - https://github.com/chphr
+
+exclude: [README.md, Gemfile, Gemfile.lock]

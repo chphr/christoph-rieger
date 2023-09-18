@@ -7,7 +7,7 @@ gist: Learn more about the motivations behind the blog
 category: blog
 date: 2023-04-30
 featured: false
-image: "/assets/images/posts/helloworld.png"
+image: /assets/images/posts/helloworld.png
 toc: true
 isreview: false
 rating: 3

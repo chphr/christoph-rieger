@@ -7,7 +7,7 @@ author: Christoph
 category: course review
 date: 2023-05-23
 featured: true
-image: "/assets/images/posts/mcgill.png"
+image: /assets/images/posts/mcgill.png
 toc: true
 isreview: true
 rating: 5

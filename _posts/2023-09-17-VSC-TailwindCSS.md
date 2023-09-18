@@ -7,7 +7,7 @@ author: Christoph
 category: tailwind
 date: 2023-09-16
 featured: false
-image: "/assets/images/posts/vsctailwind.png"
+image: /assets/images/posts/vsctailwind.png
 toc: true
 isreview: false
 rating: 5

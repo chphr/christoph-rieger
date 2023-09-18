@@ -7,7 +7,7 @@ author: Christoph
 category: midjourney
 date: 2023-08-07
 featured: true
-image: "/assets/images/posts/midjourneydnd.jpg"
+image: /assets/images/posts/midjourneydnd.jpg
 toc: true
 isreview: false
 rating: 5
