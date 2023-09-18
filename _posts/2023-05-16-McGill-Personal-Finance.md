@@ -16,7 +16,11 @@ comments_id: 2
 last_modified_at: 2023-05-23
 ---
 
-# Course Overview
+# Empowering Students for a Lifetime of Financial Wellness - The McGill Personal Finance Essentials Course
+
+Learn more about the free personal finance course provided by RBC and the McGill university can set you up for financial success
+
+## Course Overview
 
 In November 2019 McGill University launched a **free** [Personal Finance Essentials program](https://www.mcgillpersonalfinance.com/) in collaboration with RBC Future Launch and The Globe and Mail. The course aims to teach the basics of financial literacy to enable you to start taking care of your personal finances.
 
@@ -28,7 +32,7 @@ It should be noted that despite McGill’s collaboration in creating and providi
 
 Though RBC is another collaborator for the course, it's not overcrowded with advertisements and I was able to spot only a couple of instances where a conflict of interest might exist. The course does mention the use of professional financial advisors and links to free tools on the RBC website at times (like the mortgage payment calculator) but overall, I didn’t feel like RBC was aiming to sell me anything through their involvement.
 
-# Course Content
+## Course Content
 
 The course itself is broken up into 8 modules with the goal of outlining basic concepts of personal finance and providing a very high-level introduction to investing. It kicks off with an introduction module laying out the structure of the course and setting the expectations for the material to come.
 
@@ -45,7 +49,7 @@ Module 7 covers the **Realities of Real Estate**. You’ll get a high-level intr
 
 The course finishes with a module presenting Behavioural Finance, an intersection of finance and psychology, and how it influences investment decisions. Though it outlines strategies you can implement to capitalize on the momentum and earnings announcements, my biggest learnings from this module came from my own self-reflection (in terms of risk) as well as the introduction of different psychological phenomena.
 
-# Personal Takeaways
+## Personal Takeaways
 
 Now that we’ve explored the content of the course, I’d like to summarize my most valuable takeaways.
 
@@ -57,7 +61,7 @@ I’d like to change that in the future and perhaps set up at least a plan to ac
 
 Overall the course was really valuable and I would especially recommend it to people just starting their personal financial management journey. It covered a lot of important aspects on a very high level and I know for myself, generated a lot of interest to dig deeper.
 
-# Closing Words
+## Closing Words
 
 Thank you for following along on my first-ever course review on the blog. I plan to add more courses and book reviews as part of future blog content. Books and courses are a valuable source of knowledge and can often be accessed for free making them great resources to get started.
 

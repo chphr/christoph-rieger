@@ -16,7 +16,11 @@ comments_id: 3
 last_modified_at: 2023-07-31
 ---
 
-# Brave Creators Overview
+# Upgrading Jekyll Websites - A Guide to Enabling Brave Creators
+
+Learn how to add your static Jekyll website as a channel for the Brave Creators program
+
+## Brave Creators Overview
 
 [Brave Creators](https://creators.brave.com/) allows content creators to earn for channels such as websites, publications, YouTube or Twitch. Allowing viewers to support the creator despite using ad blocking such as the [Brave Browser](https://brave.com/). The program is widely adopted and used by established media outlets such as Vice, The Guardian and The Washington Post.
 
@@ -24,11 +28,11 @@ Creators are rewarded with crypto currency BAT (Basic Attention Token) which is 
 
 Getting started is as simple as [signing up for a Brave Creator Account](https://creators.brave.com/sign-up). Once signed up you have the option to enable Brave Rewards for multiple channels. In our case of a Jekyll based blog we chose Website.
 
-# Brave Website verification
+## Brave Website verification
 
 Once you have entered your domain, you will be prompted to verify ownership of the domain. Therefore you have two options, either downloading a trusted file or editing the DNS records of your site. Brave recommend enabling HTTPS and downloading a trusted file and add it to your .well-known directory. For Jekyll blogs this is as easy as adding a file to the top level of your project containing your verification Token. The Token can be found in the brave-rewards-verification.txt file that Brave will prompt you to download during the verification process.
 
-# Sample Configuration
+## Sample Configuration
 
 ```yaml
 ---
