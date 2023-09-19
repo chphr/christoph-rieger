@@ -27,7 +27,7 @@ Download: [Visual Studio Marketplace - Tailwind CSS IntelliSense](https://market
 Tailwind CSS IntelliSense is my favorite extension and it brings three major features to your Visual Studio Code.
 
 {% figure %}
-![Tailwind CSS IntelliSense](https://raw.githubusercontent.com/bradlc/vscode-tailwindcss/master/packages/vscode-tailwindcss/.github/banner.png){:class="mx-auto"}
+![Tailwind CSS IntelliSense](https://raw.githubusercontent.com/bradlc/vscode-tailwindcss/master/packages/vscode-tailwindcss/.github/banner.png){:class="mx-auto rounded shadow-2xl"}
 {% endfigure %}
 
 ### Autocomplete
