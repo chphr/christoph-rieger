@@ -1,24 +1,24 @@
 ---
 layout: post
-title: Boost Your Efficiency - 4 Must-Have VSCode Extensions for TailwindCSS
-blogtitle: Boost Your Efficiency - 4 Must-Have VSCode Extensions for TailwindCSS
-gist: Are you using Visual Studio Code and Tailwind? Check out 4 extensions to boost your productivity
+title: Supercharging Google Sheets - 5 Proven Methods to Import Stock Data
+blogtitle: Supercharging Google Sheets - 5 Proven Methods to Import Stock Data
+gist: Find out how to import stock data into Google Sheets for tracking and visualization
 author: Christoph
-category: tailwind
-date: 2023-09-16
+category: google sheets
+date: 2023-09-20
 featured: true
 image: /assets/images/posts/vsctailwind.png
 toc: true
 isreview: false
 rating: 5
 comments: true
-comments_id: 5
-last_modified_at: 2023-09-16
+comments_id: 6
+last_modified_at: 2023-09-20
 ---
 
-# Boost Your Efficiency - 4 Must-Have TailwindCSS VSCode Extensions
+# Supercharging Google Sheets - 5 Proven Methods to Import Stock Data
 
-Are you using Visual Studio Code and Tailwind? Check out 4 extensions to boost your productivity
+Are you using Visual Studio Code and Tailwind? Check out x extensions to boost your productivity
 
 ## Tailwind CSS IntelliSense
 
@@ -68,4 +68,4 @@ Curious how Tailwind Fold can improve your code? Check out the comparison below:
 
 ## Closing Words
 
-What are your favorite Visual Studio Code extensions when using Tailwind CSS? Let me know in the comments below!
+Have you tried generating Dungeons & Dragons or Pathfinder maps using Midjourney? As an avid D&D player I am always looking forward to find new ways to enhance the gaming experience. Let me know in the comments below which prompts yielded the best results for you!

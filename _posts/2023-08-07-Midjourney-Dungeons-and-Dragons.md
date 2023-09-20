@@ -6,7 +6,7 @@ gist: Learn how to create Dungeons & Dragons battle maps using the Midjourney te
 author: Christoph
 category: midjourney
 date: 2023-08-07
-featured: true
+featured: false
 image: /assets/images/posts/midjourneydnd.jpg
 toc: true
 isreview: false
@@ -16,7 +16,7 @@ comments_id: 4
 last_modified_at: 2023-08-07
 ---
 
-# Mastering Midjourney - The Hidden Secrets of D&D Maps
+# Mastering Midjourney - The Hidden Secrets of Dungeons and Dragons Maps
 
 Learn how to create Dungeons & Dragons battle maps using the Midjourney text-to-image AI
 

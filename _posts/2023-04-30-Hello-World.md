@@ -50,4 +50,4 @@ function sayHello(name) {
 }
 ```
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen ></iframe>

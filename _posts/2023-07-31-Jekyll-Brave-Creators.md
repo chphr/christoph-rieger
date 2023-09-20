@@ -6,7 +6,7 @@ gist: Learn how to add your static Jekyll website as a channel for the Brave Cre
 author: Christoph
 category: jekyll
 date: 2023-07-31
-featured: true
+featured: false
 image: /assets/images/posts/brave.png
 toc: true
 isreview: false
