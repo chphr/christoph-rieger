@@ -1,5 +1,5 @@
-<div class="flex px-3 pt-4 mx-auto md:mx-0">
-    <div class="max-w-sm overflow-hidden">
+<div class="px-3 pt-4 mx-auto md:mx-0">
+    <div class="flex flex-col flex-1 h-full max-w-sm overflow-hidden">
         <a href="{{ post.url | absolute_url }}">
             <img class="inline-flex object-cover h-48 w-96 rounded-2xl grayscale-0 md:grayscale-[15%] hover:grayscale-0 hover:shadow-xl ease-in duration-200"
                 src="{{ post.image }}" alt="{{ post.title }}"></a>
@@ -16,7 +16,7 @@
                     {{post.gist}} </p>
             </a>
         </div>
-        <div class="pb-4 text-center ">
+        <div class="pb-4 mt-auto text-center">
             <span class="px-3 py-1 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><span
                     class="text-sky-600">•</span> {{post.author}} <span class="text-sky-600">•</span> {{
                 post.date | date_to_string: "ordinal" }} <span class="text-sky-600">•</span> </span>
