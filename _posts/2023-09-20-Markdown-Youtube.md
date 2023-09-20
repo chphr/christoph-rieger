@@ -5,7 +5,7 @@ blogtitle: Maximizing the Potential of Markdown - Embedding YouTube Videos Made 
 gist: Are you using Markdown for blogging or documentation? This tutorial will show you how to embed YouTube videos.
 author: Christoph
 category: markdown
-date: 2023-09-16
+date: 2023-09-20
 featured: true
 image: /assets/images/posts/youtubemarkdown.png
 toc: true
@@ -13,7 +13,7 @@ isreview: false
 rating: 5
 comments: true
 comments_id: 7
-last_modified_at: 2023-09-16
+last_modified_at: 2023-09-20
 ---
 
 # Maximizing the Potential of Markdown - Embedding YouTube Videos Made Simple

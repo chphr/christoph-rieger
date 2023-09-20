@@ -4,29 +4,29 @@ layout: default
 permalink: "/categories.html"
 ---
 
-<h1 class="invisible">Categories</h1>
-<div class="container">
+<div class="container mx-auto">
+    <h1 class="invisible">Categories</h1>
     <div class="row listrecent">
         {% for category in site.categories %}
-        <div class="col-md-12 mt-6 mb-4 text-white text-2xl">
+        <div class="mt-6 mb-4 text-2xl text-black col-md-12">
             <div class="p-2">
                 <h2 class="" id="{{ category[0] | replace: " "," -" }}">Category <span
-                        class="capitalize font-semibold">{{
+                        class="font-semibold capitalize">{{
                         category[0] }}</span>
                 </h2>
             </div>
-            <div class="bg-gradient-to-r from-green-400 to-purple-500 h-1 w-full rounded">
+            <div class="w-full h-1 rounded bg-gradient-to-r from-green-400 to-purple-500">
 
             </div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 sm:gap-4 md:gap-6 py-5 postgrid"
+        <div class="grid grid-cols-1 gap-1 py-4 sm:grid-cols-2 md:grid-cols-3 sm:gap-4 md:gap-6 postgrid"
             data-spotlight>
             {% assign pages_list = category[1] %}
             {% for post in pages_list %}
             {% if post.title != null %}
             {% if group == null or group == post.group %}
-            {% include postcard.html %}
+            {% include blog/categorycard.html %}
             {% endif %}
             {% endif %}
             {% endfor %}
@@ -36,5 +36,3 @@ permalink: "/categories.html"
         {% endfor %}
     </div>
 </div>
-
-<script src="assets/js/spotlight-effect.js"></script>
