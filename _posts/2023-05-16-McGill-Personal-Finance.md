@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Empowering Students for a Lifetime of Financial Wellness - The McGill Personal Finance Essentials Course
-blogtitle: Empowering Students for a Lifetime of Financial Wellness - The McGill Personal Finance Essentials Course
+title: Empowering Canadians - The McGill Personal Finance Essentials Course
+blogtitle: Empowering Canadians - The McGill Personal Finance Essentials Course
 gist: Learn more about the free personal finance course provided by RBC and the McGill university
 author: Christoph
 category: course review
@@ -13,10 +13,10 @@ isreview: true
 rating: 5
 comments: true
 comments_id: 2
-last_modified_at: 2023-05-23
+last_modified_at: 2023-09-22
 ---
 
-# Empowering Students for a Lifetime of Financial Wellness - The McGill Personal Finance Essentials Course
+# Empowering Canadians for a Lifetime of Financial Wellness - The McGill Personal Finance Essentials Course
 
 Learn more about the free personal finance course provided by RBC and the McGill university can set you up for financial success
 
